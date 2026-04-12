@@ -40,7 +40,14 @@ mobileToggle.addEventListener("click", () => {
 navLinks.forEach(a => a.addEventListener("click", () => navLinksContainer.classList.remove("show")));
 
 /* ========== TYPING EFFECT ========== */
-const words = ["Frontend Developer", "Designer", "Learner"];
+const words = [
+  "Java Developer",
+  "Web Developer",
+  "Frontend Developer",
+  "Problem Solver",
+  "Tech Enthusiast",
+  "Quick Learner"
+];
 let wIndex = 0, cIndex = 0, deleting = false;
 function typeLoop() {
   const word = words[wIndex];
